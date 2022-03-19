@@ -9,11 +9,6 @@ author 'NEO'
 description 'RDRP | RDRP Loggin script to help format and manage all logging events'
 version 'v0.1'
 
--- Client Scripts
--- client_scripts { 'scripts/client/**.lua' }
-
--- Shared Scripts
--- shared_scripts { 'scripts/shared/**.lua' }
 
 -- Server Scripts
 server_scripts { 'scripts/server/**.lua' }
@@ -24,8 +19,6 @@ client_exports { 'console', 'discord'}
 -- Server exports
 server_exports {'console', 'discord'}
 
--- UI HTML page
--- ui_page 'ui/index.html'
 
 -- Add all files used in the resource (excluding client / server scripts)
 files {
