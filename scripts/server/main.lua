@@ -24,6 +24,8 @@ function console(msg, resourceName, logType)
         _msg = _msg .. _resource .. "\27[0m "
     end
 
+    print(_msg .. msg)
+
 end
 
 

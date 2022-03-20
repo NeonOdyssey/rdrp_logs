@@ -1,7 +1,7 @@
 Config = {
 
     -- Make sure to add 'set RDRP_debugMode true' in your cfg file to enable debug mode
-    Debug           = (GetConvar("rdrp_debug", "false") == "true" and true or false)
+    Debug           = (GetConvar("rdrp_debug", "false") == "true" and true or false),
 
     ServerName      = "RDRP",
     ServerLogoURL   = "https://pixelperfect.gg/uploads/avatars/pixelperfect.png",
