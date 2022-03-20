@@ -40,7 +40,7 @@ exports.rdrp_logs:console(msg, resourceName, logType)
 exports.rdrp_logs:discord(description, logType, resourceName, title, fields) 
 ```
 
-### Console Log Prams
+### Console Log Params
 ```js
 /**
  * @param   {string}    msg             Required! This will be what the console outputs as the main message
@@ -49,7 +49,7 @@ exports.rdrp_logs:discord(description, logType, resourceName, title, fields)
  */
 ```
 
-### Discord Log Prams
+### Discord Log Params
 ```js
 /**
  * @param   {string}    description     Required! This will be the body of the
