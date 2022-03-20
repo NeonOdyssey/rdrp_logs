@@ -71,7 +71,7 @@ exports.rdrp_logs:discord(description, logType, resourceName, title, fields)
 > Everyone is permitted to copy and distribute verbatim copies            <br />
 > of this license document, but changing it is not allowed.               <br />
 
-[Read more ...](https://github.com/NeonOdyssey/rdrp_logs/blob/master/LICENSE)
+[Read more ...](https://github.com/NeonOdyssey/rdrp_logs/blob/master/LICENCE)
 
 ## Authors
 
