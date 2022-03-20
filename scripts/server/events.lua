@@ -21,3 +21,10 @@ AddEventHandler('playerDropped', function(reason)
 end)
 
 
+AddEventHandler('onResourceStart', function(resourceName)
+	if (GetCurrentResourceName() ~= resourceName) then
+	  return
+	end
+	exports.rdrp_logs:console("Debug mode enabled", GetCurrentResourceName(), "debug")
+  end)
+  
