@@ -5,7 +5,7 @@ end)
 
 RegisterServerEvent('log_discord')
 AddEventHandler('log_discord', function(description, logType, resourceName, title, fields)
-	exports.rdrp_logs:console(description, logType, resourceName, title, fields)
+	exports.rdrp_logs:discord(description, logType, resourceName, title, fields)
 end)
 
 
